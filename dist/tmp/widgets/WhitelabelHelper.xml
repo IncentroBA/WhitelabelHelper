@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="incentro.whitelabelhelper.WhitelabelHelper" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Whitelabel Helper</name>
+    <description>Set dynamic CSS variables for whitelabeling your application.</description>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAGLH901AAAACXBIWXMAAAsSAAALEgHS3X78AAAChUlEQVRIibVWv2/TUBC+s5jSIWFo1zgzSE4nj7TdkZwJJJASWiEmUOiMRBEMTATKjNJKRYIp/AMlZezUVsBKw1qGJFKT0YfO79l+fv7dwCfLfXp+93139+4uRSICH+g6wRoMWK6HX4iIWshL04rYGAAgv2gEQESuA3Q5JiJ0H9bhz295bMBkOCDP3t9ViaiFhvgewWwCpsW8Et+H/Fe8iSJ+qVDcqlRhPg2YDeEML+dTqFRTAlHsDJ3b201yd70tYxTOuQ7w867NKdHd/XHE75trYbIT40iD7+1yHVZM+PlNdRs/TkRUqn/SAF8OYcWkRw2dN2YWy0ciFLOk24vDduD8FLSiCi5BSyduvaX71/loz7OhKGSCvRzT5ZgXXUs9UT6tZQ1ixZGrkJhWfHMC56f0/gEH/WQvSeHOc3WXtleh0cTHfRju024nQsbldtgXbRKmyHvo1wkd9mXGfHj9/KEbvHN18ktDi6dQLXFTPW3C6Aw3e4XTajMxzSYGrLcLGXx+wVK3uwanOdNG+gOAB2NYqnmDI90m9N47HV5cok38NGjlLcaGvDUit2sFgzW9vIOhcjHip9EMuYXsf++HsrjGZbLbgdFZlmGlCraDd3d41h1/odct3rxxCzc6sNHJViw2xhQlfHXEifu6x9UrEOtJFUqpmhYejHFAPAjTSms+pe1VulfjrhoQNxYA91YL9Tb2oQjYTnChaGfGVUamZIriyEta6SGZE81mT4tm4QgUiF8x+rQjRgV4o9fQxu8/wMUooioajcMZ7l+dXCR9NuHhIv7JMi2+m6VapJOvIhNQP1uT3epTRyJQUVQmjzpVID+aYtQ5AskyZagLCSyOhRstEwDwF2sTAr0O7ASBAAAAAElFTkSuQmCC</icon>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="CSSVariables" type="object" isList="true">
+                <caption>CSS variables</caption>
+                <description/>
+                <properties>
+                    <propertyGroup caption="Object list group">
+                        <property key="Property" type="string">
+                            <caption>Variable name</caption>
+                            <description>name-without-spaces</description>
+                        </property>
+                        <property key="Value" type="expression" defaultValue="'#BADA55'">
+                            <caption>Variable value</caption>
+                            <description>The value of the CSS variable. For example a color.</description>
+                            <returnType type="String" />
+                        </property>
+                    </propertyGroup>
+                </properties>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
