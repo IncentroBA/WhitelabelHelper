@@ -1,7 +1,7 @@
 {
   "name": "whitelabelhelper",
   "widgetName": "WhitelabelHelper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set dynamic CSS variables for whitelabeling your application.",
   "copyright": "MIT",
   "author": "Rob Duits",
