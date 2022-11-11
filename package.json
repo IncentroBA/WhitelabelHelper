@@ -1,30 +1,31 @@
 {
-  "name": "whitelabelhelper",
-  "widgetName": "WhitelabelHelper",
-  "version": "1.0.1",
-  "description": "Set dynamic CSS variables for whitelabeling your application.",
-  "copyright": "MIT",
-  "author": "Rob Duits",
-  "config": {
-    "projectPath": "../..//",
-    "mendixHost": "http://localhost:8080",
-    "developmentPort": "3000"
-  },
-  "packagePath": "incentro",
-  "scripts": {
-    "start": "pluggable-widgets-tools start:server --open",
-    "dev": "pluggable-widgets-tools start:web",
-    "build": "pluggable-widgets-tools build:web",
-    "lint": "pluggable-widgets-tools lint",
-    "lint:fix": "pluggable-widgets-tools lint:fix",
-    "prerelease": "npm run lint",
-    "release": "pluggable-widgets-tools release:web"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^8.14.0"
-  },
-  "dependencies": {
-    "classnames": "^2.2.6"
-  }
+    "name": "whitelabelhelper",
+    "widgetName": "WhitelabelHelper",
+    "version": "1.0.2",
+    "description": "Set dynamic CSS variables for whitelabeling your application.",
+    "copyright": "MIT",
+    "author": "Rob Duits",
+    "engines": {
+        "node": ">=16"
+    },
+    "license": "MIT",
+    "config": {
+        "projectPath": "../../"
+    },
+    "packagePath": "incentro",
+    "scripts": {
+        "start": "pluggable-widgets-tools start:server --open",
+        "dev": "pluggable-widgets-tools start:web",
+        "build": "pluggable-widgets-tools build:web",
+        "lint": "pluggable-widgets-tools lint",
+        "lint:fix": "pluggable-widgets-tools lint:fix",
+        "prerelease": "npm run lint",
+        "release": "pluggable-widgets-tools release:web"
+    },
+    "devDependencies": {
+        "@mendix/pluggable-widgets-tools": "^9.18.0"
+    },
+    "dependencies": {
+        "classnames": "^2.3.2"
+    }
 }
