@@ -1,7 +1,7 @@
 {
     "name": "whitelabelhelper",
     "widgetName": "WhitelabelHelper",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Set dynamic CSS variables for whitelabeling your application.",
     "copyright": "MIT",
     "author": "Rob Duits",
@@ -23,7 +23,7 @@
         "release": "pluggable-widgets-tools release:web"
     },
     "devDependencies": {
-        "@mendix/pluggable-widgets-tools": "^9.18.0"
+        "@mendix/pluggable-widgets-tools": "^9.24.1"
     },
     "dependencies": {
         "classnames": "^2.3.2"
